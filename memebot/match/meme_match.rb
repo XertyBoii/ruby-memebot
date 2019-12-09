@@ -42,7 +42,11 @@ module Memebot
 
       def subreddits
         [
-          '/r/memes'
+          '/r/memes',
+          '/r/wholesomememes',
+          '/r/dankchristianmemes',
+          '/r/memeeconomy',
+          '/r/dankmemes'
         ]
       end
     end
