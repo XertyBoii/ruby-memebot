@@ -1,4 +1,4 @@
 ### Meme bot
 
-Use `/meme` to generate a meme from meme subreddits.
+Type `I need a meme` to generate a meme from meme subreddits.
 Enjoy wasting time.
