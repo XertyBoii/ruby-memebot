@@ -1,4 +1,3 @@
-require 'pry'
 require 'reddit/base'
 require_relative 'meme_match/response'
 
