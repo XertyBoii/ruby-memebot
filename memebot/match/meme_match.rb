@@ -46,7 +46,11 @@ module Memebot
           '/r/wholesomememes',
           '/r/dankchristianmemes',
           '/r/memeeconomy',
-          '/r/dankmemes'
+          '/r/dankmemes',
+          '/r/me_irl',
+          '/r/comedyheaven',
+          '/r/bikinibottomtwitter',
+          'r/lotrmemes/'
         ]
       end
     end
