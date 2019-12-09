@@ -27,12 +27,22 @@ module Memebot
           posts.select do |post|
             post.dig(:data, :ups) > 100 &&
             post.dig(:data, :over_18) == false &&
-            post.dig(:data, :url).empty? == false
+            post.dig(:data, :url).empty? == false &&
+            valid_image_types.any? { |word| post.dig(:data, :url).include?(word) }
           end
         end
 
         def posts
           data.body.data.children
+        end
+
+        def valid_image_types
+          @valid_image_types ||= [
+            '.png',
+            '.jpg',
+            '.jpeg',
+            '.gif'
+          ]
         end
 
       end
